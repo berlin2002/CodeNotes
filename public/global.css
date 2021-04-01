@@ -1,0 +1,192 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+
+.form_body {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.button_wrapper {
+  margin-bottom: 15px;
+  align-self: flex-end;
+}
+
+#post-list li {
+  margin-bottom: 20px !important;
+}
+
+.container {
+  margin: auto;
+  padding: 50px;
+  padding-right: 90px;
+}
+
+.demo-card-event.mdl-card {
+  width: 256px;
+  height: 256px;
+  background: #3e4eb8;
+}
+.demo-card-event > .mdl-card__actions {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.demo-card-event > .mdl-card__title {
+  align-items: flex-start;
+}
+.demo-card-event > .mdl-card__title > h4 {
+  margin-top: 0;
+}
+.demo-card-event > .mdl-card__actions {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+.demo-card-event > .mdl-card__actions > .material-icons {
+  padding-right: 10px;
+}
+.demo-card-event > .mdl-card__title,
+.demo-card-event > .mdl-card__actions,
+.demo-card-event > .mdl-card__actions > .mdl-button {
+  color: #fff;
+}
+
+.reverse-list {
+  display: flex;
+  flex-direction: column-reverse !important;
+  list-style-type: none;
+}
+
+#note-book li {
+  margin-bottom: 15px;
+}
+
+.form_head input {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.demo-list-action {
+  width: 300px;
+}
+.hide {
+  display: none;
+}
+
+.fab {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+}
+
+.appnote-edit {
+  display: flex;
+  align-items: center;
+}
+
+.appnote-edit h3 {
+  margin-right: 20px;
+}
+
+.demo-list-two {
+  width: 300px;
+}
+
+.desc__form-div,
+.desc__conent-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-bar {
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #1e88e5;
+}
+
+.bottom-bar button {
+  position: relative;
+  bottom: 25px;
+}
+
+.desc__content-div,
+.snippet__content-div,
+.title__content-div {
+  position: relative;
+  padding-right: 50px;
+}
+
+.snippet__content-div {
+  padding-right: 0px;
+}
+
+.edit-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
