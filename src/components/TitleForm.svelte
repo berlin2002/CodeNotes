@@ -1,8 +1,15 @@
 <script>
   import { codeNotes } from "../js/store";
+
+  function mInit(node) {
+    console.log(node);
+  }
 </script>
 
-<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+<div
+  class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"
+  use:mInit
+>
   <input
     class="title__input mdl-textfield__input"
     type="text"
